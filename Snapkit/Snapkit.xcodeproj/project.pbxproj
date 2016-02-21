@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD318DD21C7A435400ECC7D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318DD11C7A435400ECC7D9 /* AppDelegate.swift */; };
+		CD318DD41C7A435400ECC7D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318DD31C7A435400ECC7D9 /* ViewController.swift */; };
+		CD318DD71C7A435400ECC7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD318DD51C7A435400ECC7D9 /* Main.storyboard */; };
+		CD318DD91C7A435400ECC7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD318DD81C7A435400ECC7D9 /* Assets.xcassets */; };
+		CD318DDC1C7A435400ECC7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD318DDA1C7A435400ECC7D9 /* LaunchScreen.storyboard */; };
+		CD318DE71C7A435400ECC7D9 /* SnapkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318DE61C7A435400ECC7D9 /* SnapkitTests.swift */; };
+		CD318DF21C7A435400ECC7D9 /* SnapkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318DF11C7A435400ECC7D9 /* SnapkitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD318DE31C7A435400ECC7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD318DC61C7A435400ECC7D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD318DCD1C7A435400ECC7D9;
+			remoteInfo = Snapkit;
+		};
+		CD318DEE1C7A435400ECC7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD318DC61C7A435400ECC7D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD318DCD1C7A435400ECC7D9;
+			remoteInfo = Snapkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD318DCE1C7A435400ECC7D9 /* Snapkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD318DD11C7A435400ECC7D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD318DD31C7A435400ECC7D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD318DD61C7A435400ECC7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD318DD81C7A435400ECC7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD318DDB1C7A435400ECC7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD318DDD1C7A435400ECC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD318DE21C7A435400ECC7D9 /* SnapkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD318DE61C7A435400ECC7D9 /* SnapkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitTests.swift; sourceTree = "<group>"; };
+		CD318DE81C7A435400ECC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD318DED1C7A435400ECC7D9 /* SnapkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD318DF11C7A435400ECC7D9 /* SnapkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitUITests.swift; sourceTree = "<group>"; };
+		CD318DF31C7A435400ECC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD318DCB1C7A435400ECC7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318DDF1C7A435400ECC7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318DEA1C7A435400ECC7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD318DC51C7A435400ECC7D9 = {
+			isa = PBXGroup;
+			children = (
+				CD318DD01C7A435400ECC7D9 /* Snapkit */,
+				CD318DE51C7A435400ECC7D9 /* SnapkitTests */,
+				CD318DF01C7A435400ECC7D9 /* SnapkitUITests */,
+				CD318DCF1C7A435400ECC7D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD318DCF1C7A435400ECC7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD318DCE1C7A435400ECC7D9 /* Snapkit.app */,
+				CD318DE21C7A435400ECC7D9 /* SnapkitTests.xctest */,
+				CD318DED1C7A435400ECC7D9 /* SnapkitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD318DD01C7A435400ECC7D9 /* Snapkit */ = {
+			isa = PBXGroup;
+			children = (
+				CD318DD11C7A435400ECC7D9 /* AppDelegate.swift */,
+				CD318DD31C7A435400ECC7D9 /* ViewController.swift */,
+				CD318DD51C7A435400ECC7D9 /* Main.storyboard */,
+				CD318DD81C7A435400ECC7D9 /* Assets.xcassets */,
+				CD318DDA1C7A435400ECC7D9 /* LaunchScreen.storyboard */,
+				CD318DDD1C7A435400ECC7D9 /* Info.plist */,
+			);
+			path = Snapkit;
+			sourceTree = "<group>";
+		};
+		CD318DE51C7A435400ECC7D9 /* SnapkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD318DE61C7A435400ECC7D9 /* SnapkitTests.swift */,
+				CD318DE81C7A435400ECC7D9 /* Info.plist */,
+			);
+			path = SnapkitTests;
+			sourceTree = "<group>";
+		};
+		CD318DF01C7A435400ECC7D9 /* SnapkitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD318DF11C7A435400ECC7D9 /* SnapkitUITests.swift */,
+				CD318DF31C7A435400ECC7D9 /* Info.plist */,
+			);
+			path = SnapkitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD318DCD1C7A435400ECC7D9 /* Snapkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD318DF61C7A435400ECC7D9 /* Build configuration list for PBXNativeTarget "Snapkit" */;
+			buildPhases = (
+				CD318DCA1C7A435400ECC7D9 /* Sources */,
+				CD318DCB1C7A435400ECC7D9 /* Frameworks */,
+				CD318DCC1C7A435400ECC7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapkit;
+			productName = Snapkit;
+			productReference = CD318DCE1C7A435400ECC7D9 /* Snapkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD318DE11C7A435400ECC7D9 /* SnapkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD318DF91C7A435400ECC7D9 /* Build configuration list for PBXNativeTarget "SnapkitTests" */;
+			buildPhases = (
+				CD318DDE1C7A435400ECC7D9 /* Sources */,
+				CD318DDF1C7A435400ECC7D9 /* Frameworks */,
+				CD318DE01C7A435400ECC7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD318DE41C7A435400ECC7D9 /* PBXTargetDependency */,
+			);
+			name = SnapkitTests;
+			productName = SnapkitTests;
+			productReference = CD318DE21C7A435400ECC7D9 /* SnapkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD318DEC1C7A435400ECC7D9 /* SnapkitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD318DFC1C7A435400ECC7D9 /* Build configuration list for PBXNativeTarget "SnapkitUITests" */;
+			buildPhases = (
+				CD318DE91C7A435400ECC7D9 /* Sources */,
+				CD318DEA1C7A435400ECC7D9 /* Frameworks */,
+				CD318DEB1C7A435400ECC7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD318DEF1C7A435400ECC7D9 /* PBXTargetDependency */,
+			);
+			name = SnapkitUITests;
+			productName = SnapkitUITests;
+			productReference = CD318DED1C7A435400ECC7D9 /* SnapkitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD318DC61C7A435400ECC7D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Patrick Schneider";
+				TargetAttributes = {
+					CD318DCD1C7A435400ECC7D9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CD318DE11C7A435400ECC7D9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CD318DCD1C7A435400ECC7D9;
+					};
+					CD318DEC1C7A435400ECC7D9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CD318DCD1C7A435400ECC7D9;
+					};
+				};
+			};
+			buildConfigurationList = CD318DC91C7A435400ECC7D9 /* Build configuration list for PBXProject "Snapkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD318DC51C7A435400ECC7D9;
+			productRefGroup = CD318DCF1C7A435400ECC7D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD318DCD1C7A435400ECC7D9 /* Snapkit */,
+				CD318DE11C7A435400ECC7D9 /* SnapkitTests */,
+				CD318DEC1C7A435400ECC7D9 /* SnapkitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD318DCC1C7A435400ECC7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318DDC1C7A435400ECC7D9 /* LaunchScreen.storyboard in Resources */,
+				CD318DD91C7A435400ECC7D9 /* Assets.xcassets in Resources */,
+				CD318DD71C7A435400ECC7D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318DE01C7A435400ECC7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318DEB1C7A435400ECC7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD318DCA1C7A435400ECC7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318DD41C7A435400ECC7D9 /* ViewController.swift in Sources */,
+				CD318DD21C7A435400ECC7D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318DDE1C7A435400ECC7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318DE71C7A435400ECC7D9 /* SnapkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318DE91C7A435400ECC7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318DF21C7A435400ECC7D9 /* SnapkitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD318DE41C7A435400ECC7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD318DCD1C7A435400ECC7D9 /* Snapkit */;
+			targetProxy = CD318DE31C7A435400ECC7D9 /* PBXContainerItemProxy */;
+		};
+		CD318DEF1C7A435400ECC7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD318DCD1C7A435400ECC7D9 /* Snapkit */;
+			targetProxy = CD318DEE1C7A435400ECC7D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD318DD51C7A435400ECC7D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD318DD61C7A435400ECC7D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD318DDA1C7A435400ECC7D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD318DDB1C7A435400ECC7D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD318DF41C7A435400ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD318DF51C7A435400ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD318DF71C7A435400ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Snapkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickschneider.Snapkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD318DF81C7A435400ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Snapkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickschneider.Snapkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD318DFA1C7A435400ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickschneider.SnapkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapkit.app/Snapkit";
+			};
+			name = Debug;
+		};
+		CD318DFB1C7A435400ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickschneider.SnapkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapkit.app/Snapkit";
+			};
+			name = Release;
+		};
+		CD318DFD1C7A435400ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickschneider.SnapkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Snapkit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD318DFE1C7A435400ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickschneider.SnapkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Snapkit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD318DC91C7A435400ECC7D9 /* Build configuration list for PBXProject "Snapkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318DF41C7A435400ECC7D9 /* Debug */,
+				CD318DF51C7A435400ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD318DF61C7A435400ECC7D9 /* Build configuration list for PBXNativeTarget "Snapkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318DF71C7A435400ECC7D9 /* Debug */,
+				CD318DF81C7A435400ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD318DF91C7A435400ECC7D9 /* Build configuration list for PBXNativeTarget "SnapkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318DFA1C7A435400ECC7D9 /* Debug */,
+				CD318DFB1C7A435400ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD318DFC1C7A435400ECC7D9 /* Build configuration list for PBXNativeTarget "SnapkitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318DFD1C7A435400ECC7D9 /* Debug */,
+				CD318DFE1C7A435400ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD318DC61C7A435400ECC7D9 /* Project object */;
+}

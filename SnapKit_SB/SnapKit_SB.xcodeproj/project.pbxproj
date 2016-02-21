@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD318E0C1C7A439900ECC7D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318E0B1C7A439900ECC7D9 /* AppDelegate.swift */; };
+		CD318E0E1C7A439900ECC7D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318E0D1C7A439900ECC7D9 /* ViewController.swift */; };
+		CD318E111C7A439900ECC7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD318E0F1C7A439900ECC7D9 /* Main.storyboard */; };
+		CD318E131C7A439900ECC7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD318E121C7A439900ECC7D9 /* Assets.xcassets */; };
+		CD318E161C7A439900ECC7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD318E141C7A439900ECC7D9 /* LaunchScreen.storyboard */; };
+		CD318E211C7A439900ECC7D9 /* SnapKit_SBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318E201C7A439900ECC7D9 /* SnapKit_SBTests.swift */; };
+		CD318E2C1C7A439900ECC7D9 /* SnapKit_SBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318E2B1C7A439900ECC7D9 /* SnapKit_SBUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD318E1D1C7A439900ECC7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD318E001C7A439900ECC7D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD318E071C7A439900ECC7D9;
+			remoteInfo = SnapKit_SB;
+		};
+		CD318E281C7A439900ECC7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD318E001C7A439900ECC7D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD318E071C7A439900ECC7D9;
+			remoteInfo = SnapKit_SB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD318E081C7A439900ECC7D9 /* SnapKit_SB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKit_SB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD318E0B1C7A439900ECC7D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD318E0D1C7A439900ECC7D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD318E101C7A439900ECC7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD318E121C7A439900ECC7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD318E151C7A439900ECC7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD318E171C7A439900ECC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD318E1C1C7A439900ECC7D9 /* SnapKit_SBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKit_SBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD318E201C7A439900ECC7D9 /* SnapKit_SBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKit_SBTests.swift; sourceTree = "<group>"; };
+		CD318E221C7A439900ECC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD318E271C7A439900ECC7D9 /* SnapKit_SBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKit_SBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD318E2B1C7A439900ECC7D9 /* SnapKit_SBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKit_SBUITests.swift; sourceTree = "<group>"; };
+		CD318E2D1C7A439900ECC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD318E051C7A439900ECC7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318E191C7A439900ECC7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318E241C7A439900ECC7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD318DFF1C7A439900ECC7D9 = {
+			isa = PBXGroup;
+			children = (
+				CD318E0A1C7A439900ECC7D9 /* SnapKit_SB */,
+				CD318E1F1C7A439900ECC7D9 /* SnapKit_SBTests */,
+				CD318E2A1C7A439900ECC7D9 /* SnapKit_SBUITests */,
+				CD318E091C7A439900ECC7D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD318E091C7A439900ECC7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD318E081C7A439900ECC7D9 /* SnapKit_SB.app */,
+				CD318E1C1C7A439900ECC7D9 /* SnapKit_SBTests.xctest */,
+				CD318E271C7A439900ECC7D9 /* SnapKit_SBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD318E0A1C7A439900ECC7D9 /* SnapKit_SB */ = {
+			isa = PBXGroup;
+			children = (
+				CD318E0B1C7A439900ECC7D9 /* AppDelegate.swift */,
+				CD318E0D1C7A439900ECC7D9 /* ViewController.swift */,
+				CD318E0F1C7A439900ECC7D9 /* Main.storyboard */,
+				CD318E121C7A439900ECC7D9 /* Assets.xcassets */,
+				CD318E141C7A439900ECC7D9 /* LaunchScreen.storyboard */,
+				CD318E171C7A439900ECC7D9 /* Info.plist */,
+			);
+			path = SnapKit_SB;
+			sourceTree = "<group>";
+		};
+		CD318E1F1C7A439900ECC7D9 /* SnapKit_SBTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD318E201C7A439900ECC7D9 /* SnapKit_SBTests.swift */,
+				CD318E221C7A439900ECC7D9 /* Info.plist */,
+			);
+			path = SnapKit_SBTests;
+			sourceTree = "<group>";
+		};
+		CD318E2A1C7A439900ECC7D9 /* SnapKit_SBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD318E2B1C7A439900ECC7D9 /* SnapKit_SBUITests.swift */,
+				CD318E2D1C7A439900ECC7D9 /* Info.plist */,
+			);
+			path = SnapKit_SBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD318E071C7A439900ECC7D9 /* SnapKit_SB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD318E301C7A439900ECC7D9 /* Build configuration list for PBXNativeTarget "SnapKit_SB" */;
+			buildPhases = (
+				CD318E041C7A439900ECC7D9 /* Sources */,
+				CD318E051C7A439900ECC7D9 /* Frameworks */,
+				CD318E061C7A439900ECC7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit_SB;
+			productName = SnapKit_SB;
+			productReference = CD318E081C7A439900ECC7D9 /* SnapKit_SB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD318E1B1C7A439900ECC7D9 /* SnapKit_SBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD318E331C7A439900ECC7D9 /* Build configuration list for PBXNativeTarget "SnapKit_SBTests" */;
+			buildPhases = (
+				CD318E181C7A439900ECC7D9 /* Sources */,
+				CD318E191C7A439900ECC7D9 /* Frameworks */,
+				CD318E1A1C7A439900ECC7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD318E1E1C7A439900ECC7D9 /* PBXTargetDependency */,
+			);
+			name = SnapKit_SBTests;
+			productName = SnapKit_SBTests;
+			productReference = CD318E1C1C7A439900ECC7D9 /* SnapKit_SBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD318E261C7A439900ECC7D9 /* SnapKit_SBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD318E361C7A439900ECC7D9 /* Build configuration list for PBXNativeTarget "SnapKit_SBUITests" */;
+			buildPhases = (
+				CD318E231C7A439900ECC7D9 /* Sources */,
+				CD318E241C7A439900ECC7D9 /* Frameworks */,
+				CD318E251C7A439900ECC7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD318E291C7A439900ECC7D9 /* PBXTargetDependency */,
+			);
+			name = SnapKit_SBUITests;
+			productName = SnapKit_SBUITests;
+			productReference = CD318E271C7A439900ECC7D9 /* SnapKit_SBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD318E001C7A439900ECC7D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Patrick Schneider";
+				TargetAttributes = {
+					CD318E071C7A439900ECC7D9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CD318E1B1C7A439900ECC7D9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CD318E071C7A439900ECC7D9;
+					};
+					CD318E261C7A439900ECC7D9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CD318E071C7A439900ECC7D9;
+					};
+				};
+			};
+			buildConfigurationList = CD318E031C7A439900ECC7D9 /* Build configuration list for PBXProject "SnapKit_SB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD318DFF1C7A439900ECC7D9;
+			productRefGroup = CD318E091C7A439900ECC7D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD318E071C7A439900ECC7D9 /* SnapKit_SB */,
+				CD318E1B1C7A439900ECC7D9 /* SnapKit_SBTests */,
+				CD318E261C7A439900ECC7D9 /* SnapKit_SBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD318E061C7A439900ECC7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318E161C7A439900ECC7D9 /* LaunchScreen.storyboard in Resources */,
+				CD318E131C7A439900ECC7D9 /* Assets.xcassets in Resources */,
+				CD318E111C7A439900ECC7D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318E1A1C7A439900ECC7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318E251C7A439900ECC7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD318E041C7A439900ECC7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318E0E1C7A439900ECC7D9 /* ViewController.swift in Sources */,
+				CD318E0C1C7A439900ECC7D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318E181C7A439900ECC7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318E211C7A439900ECC7D9 /* SnapKit_SBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD318E231C7A439900ECC7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD318E2C1C7A439900ECC7D9 /* SnapKit_SBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD318E1E1C7A439900ECC7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD318E071C7A439900ECC7D9 /* SnapKit_SB */;
+			targetProxy = CD318E1D1C7A439900ECC7D9 /* PBXContainerItemProxy */;
+		};
+		CD318E291C7A439900ECC7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD318E071C7A439900ECC7D9 /* SnapKit_SB */;
+			targetProxy = CD318E281C7A439900ECC7D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD318E0F1C7A439900ECC7D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD318E101C7A439900ECC7D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD318E141C7A439900ECC7D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD318E151C7A439900ECC7D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD318E2E1C7A439900ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD318E2F1C7A439900ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD318E311C7A439900ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapKit_SB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.patrickschneider.SnapKit-SB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD318E321C7A439900ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapKit_SB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.patrickschneider.SnapKit-SB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD318E341C7A439900ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapKit_SBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.patrickschneider.SnapKit-SBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKit_SB.app/SnapKit_SB";
+			};
+			name = Debug;
+		};
+		CD318E351C7A439900ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapKit_SBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.patrickschneider.SnapKit-SBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKit_SB.app/SnapKit_SB";
+			};
+			name = Release;
+		};
+		CD318E371C7A439900ECC7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapKit_SBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.patrickschneider.SnapKit-SBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapKit_SB;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD318E381C7A439900ECC7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapKit_SBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.patrickschneider.SnapKit-SBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapKit_SB;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD318E031C7A439900ECC7D9 /* Build configuration list for PBXProject "SnapKit_SB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318E2E1C7A439900ECC7D9 /* Debug */,
+				CD318E2F1C7A439900ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD318E301C7A439900ECC7D9 /* Build configuration list for PBXNativeTarget "SnapKit_SB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318E311C7A439900ECC7D9 /* Debug */,
+				CD318E321C7A439900ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD318E331C7A439900ECC7D9 /* Build configuration list for PBXNativeTarget "SnapKit_SBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318E341C7A439900ECC7D9 /* Debug */,
+				CD318E351C7A439900ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD318E361C7A439900ECC7D9 /* Build configuration list for PBXNativeTarget "SnapKit_SBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD318E371C7A439900ECC7D9 /* Debug */,
+				CD318E381C7A439900ECC7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD318E001C7A439900ECC7D9 /* Project object */;
+}
