@@ -1,7 +1,7 @@
 # LoginLayoutExample
 A Xcode workspace to demonstrate different layout techniques using a login screen inspired by Instagram.
 
-![Instagram Login](IMG_)
+![Instagram Login](https://github.com/pschneider/LoginLayoutExample/raw/master/IMG_7684.jpg)
 
 ## Techniques
 
