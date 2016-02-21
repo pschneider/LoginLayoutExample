@@ -1,6 +1,10 @@
 # LoginLayoutExample
 A Xcode workspace to demonstrate different layout techniques using a login screen inspired by Instagram.
 
+![Instagram Login](IMG_)
+
+## Techniques
+
 - Autolayout via SnapKit + View programatically
 - Autolayout via SnapKit + View Storyboard
 - Autolayout default NSLayoutConstraints + Views programatically
