@@ -5,7 +5,7 @@ A Xcode workspace to demonstrate different layout techniques using a login scree
 - Autolayout via SnapKit + View Storyboard
 - Autolayout default NSLayoutConstraints + Views programatically
 - Autolayout default NSLayoutConstraints + View Storyboard
-
+- Everything in Storyboard
 
 ## Planned
 - Maybe different libraries
